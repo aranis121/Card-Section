@@ -1,0 +1,87 @@
+
+
+/*-------- card zoom section start--------*/
+.zoom{
+   padding: 50px 0; 
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: 1.5s;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+
+
+/*-------- card zoom section end--------*/
+/*-------- card team section start--------*/
+.team{
+    padding: 40px 40px;
+}
+.card{
+    border: none;
+}
+.user-1{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;   
+}
+.card-body-team img{
+    top: 70px;
+    position: absolute;
+    left: calc(50% - 65px);
+}
+.card-body-team{
+    background: #f8fcfd;
+    padding: 80px 0 30px 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.card-body-team .fa-facebook-f{
+    font-size: 16px;
+    margin: 0px 2px 0 2px;
+    padding: 10px 0;
+    color: #fff;
+    background: #175df0;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    text-align: center;
+}
+.card-body-team .fa-twitter{
+    font-size: 16px;
+    margin: 0px 2px 0 2px;
+    padding: 10px 0;
+    color: #fff;
+    background: #f7ba4d;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    text-align: center;
+}
+.card-body-team:hover{
+    background-image: linear-gradient(to right, #1566ef,#08c2e3);
+    transition: .5s;
+    color: #fff;
+}
+.card-body-team:hover .fa-facebook-f{
+    color: blue;
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+/*-------- card team section end--------*/
+
+
+
+
+
